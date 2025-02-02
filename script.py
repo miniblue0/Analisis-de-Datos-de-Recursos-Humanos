@@ -3,7 +3,7 @@
 
 import os
 from kaggle.api.kaggle_api_extended import KaggleApi
-from sqlalchemy import create_engine,text#, Integer, String, Float, Boolean
+from sqlalchemy import create_engine,text
 import pandas as pd
 from dotenv import load_dotenv
 
@@ -139,17 +139,9 @@ def oversampling_predict_model(df):
 
 
 
-    print('\n matriz de confusion')
+    print('\n matriz de confusion') #muestra cuantas predicciones fueron correctas
     print(confusion_matrix(y_test,y_pred))
-
-    #muestra cuantas predicciones fueron correctas
-    ''' se quedaron:                               se fueron:
-        [[720 pred. positivos(se quedaron)         80 pred. falso positivo()]  
-        [70  pred. falso neg. (no se quedaron)     130  pred. positiva (se fueron)]]'''
-
-
-
-
+    
 
 def main():
     #1 extraer datos de la api y cargarlos a sql
