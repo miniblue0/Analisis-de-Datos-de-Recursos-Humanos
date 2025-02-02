@@ -8,14 +8,14 @@
 3. Desarrollar modelos de Machine Learning para predecir la probabilidad de
    rotación de empleados.
 4. Generar informes de recomendaciones basados en los análisis.
-* Configuración de la Base de Datos:
-  Crea una base de datos en SQL Server.
+# Configuración de la Base de Datos:
+1. Crea una base de datos en SQL Server.
   Diseña las tablas necesarias para almacenar información sobre empleados,
   encuestas de satisfacción y registros de rotación.
-* Extracción y Análisis de Datos con Python:
+2. Extracción y Análisis de Datos con Python:
   Usa Python y bibliotecas como pandas para conectarte a la base de datos y
   extraer datos.
   Realiza análisis exploratorio y visualización de datos.
-* Modelos Predictivos:
+3. Modelos Predictivos:
   Desarrolla modelos de Machine Learning para predecir la rotación de
   empleados usando scikit-learn.
