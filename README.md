@@ -57,7 +57,7 @@
            );
            """
    DTYPE= {
-       'Employee_ID': VARCHAR(50),
+       'Employee_ID': String(50),
        'First_Name': String(50),
        'Last_Name': String(50),
        'Gender': String(10),
